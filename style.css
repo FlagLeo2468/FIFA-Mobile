@@ -1,0 +1,9 @@
+/* simple layout */
+body { font-family: Arial, sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#0b6d3a; color:#fff; }
+#game { width:360px; text-align:center; }
+#field { position:relative; width:100%; height:540px; background:linear-gradient(#3bbf5a,#2fa04a); border:4px solid #fff; border-radius:8px; overflow:hidden; }
+#player { position:absolute; width:36px; height:36px; background:#0047ab; border-radius:50%; left:50%; top:80%; transform:translate(-50%,-50%); box-shadow:0 4px 0 rgba(0,0,0,0.3); }
+#ball { position:absolute; width:18px; height:18px; background:#fff; border-radius:50%; left:50%; top:70%; transform:translate(-50%,-50%); box-shadow:0 2px 0 rgba(0,0,0,0.2); }
+#controls { margin-top:10px; display:flex; gap:6px; justify-content:center; flex-wrap:wrap; }
+#controls button { padding:8px 12px; font-size:16px; border-radius:6px; border:none; cursor:pointer; }
+#info { margin-top:8px; font-size:14px; opacity:0.9; }
